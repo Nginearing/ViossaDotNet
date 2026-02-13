@@ -46,6 +46,8 @@ export interface ResourcesPage {
 
 export interface Resources {
 	discord: Resource;
+	vikoli: Resource;
+	
 }
 
 export interface Resource {
@@ -54,6 +56,10 @@ export interface Resource {
 	desc: string;
 	link: string;
 	rulesLink: string;
+	spotifyLink: string;
+	youtubeLink: string;
+	appleLink: string;
+	redcircleLink: string;
 	image: string;
 	alt: string;
 	joinText: string;
