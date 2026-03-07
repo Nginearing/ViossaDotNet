@@ -15,6 +15,8 @@ const close = (): void => {
 
 const setLocaleId = (id: LocaleId): void => {
 	localeId.value = id;
+
+	document.documentElement.lang = id;
 	close();
 };
 </script>
